@@ -41,27 +41,6 @@ mvn clean package
 
 - `virtualchest.use` - Разрешение для использования команды
 
-## 📁 Структура проекта
-
-```
-src/
-├── main/
-│   ├── java/com/example/plugin/
-│   │   ├── VirtualChest.java         # Основной класс плагина
-│   │   ├── commands/
-│   │   │   └── vrctCommand.java      # Обработчик команд
-│   │   ├── listeners/
-│   │   │   └── PlayerListener.java   # Слушатели событий
-│   │   ├── managers/
-│   │   │   └── PluginManager.java    # Менеджер плагина
-│   │   └── utils/
-│   │       └── Utils.java            # Утилиты
-│   └── resources/
-│       └── plugin.yml                # Конфигурация плагина
-├── pom.xml                           # Конфигурация Maven
-└── README.md                         # Этот файл
-```
-
 ## 🔧 Использование
 
 1. Введите команду `/virtualchest` в чат
