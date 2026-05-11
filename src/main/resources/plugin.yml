@@ -1,0 +1,11 @@
+main: com.example.plugin.VirtualChest
+version: 1.0
+name: VirtualChest
+author: IHW0
+api-version: 1.21
+commands:
+  virtualchest:
+    description: Open a virtual chest and manage your items.
+    usage: /virtualchest
+    permission: virtualchest.use
+    aliases: [vc]
